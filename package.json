@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
     "start": "node index.js"
   },
   "repository": {
@@ -13,8 +13,14 @@
   },
   "author": "",
   "license": "ISC",
+  "jest": {
+    "verbose": true
+  },
   "bugs": {
     "url": "https://github.com/brunovasconcelostw/infra-booster-github-actions/issues"
   },
-  "homepage": "https://github.com/brunovasconcelostw/infra-booster-github-actions#readme"
+  "homepage": "https://github.com/brunovasconcelostw/infra-booster-github-actions#readme",
+  "dependencies": {
+    "jest": "^28.1.3"
+  }
 }
